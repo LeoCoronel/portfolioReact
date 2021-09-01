@@ -67,7 +67,7 @@ const AboutTop = () => {
                     <p class="subtitle"><FormattedMessage id="app.about" defaultMessage="404 text no found" /></p>
                     <p class="about-title">FrontEnd Developer</p>
 
-                    <p class="about-desc"><FormattedMessage id="app.resume" defaultMessage="404 text no found" /> <a href="../../src/Coronel_Leo_CV.pdf" class="cv-link" target="_blank"><FormattedMessage id="app.resume-cv" defaultMessage="404 text no found" /></a>.</p>
+                    <p class="about-desc"><FormattedMessage id="app.resume" defaultMessage="404 text no found" /> <a href="https://raw.githubusercontent.com/LeoCoronel/portfolioReact/61fcd1987af1875f04c76cd835e49d8aecad6d33/src/Coronel_Leo_CV.pdf" class="cv-link" target="_blank"><FormattedMessage id="app.resume-cv" defaultMessage="404 text no found" /></a>.</p>
                     
                     <p class="about-desc"><FormattedMessage id="app.about-desc" defaultMessage="404 text no found" /></p>
                 </div>

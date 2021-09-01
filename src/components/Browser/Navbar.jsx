@@ -9,7 +9,7 @@ const Nav = Styled.nav`
     border-radius: 5px 5px 0 0;
     z-index: 950;
     height: 50px;
-    padding: 0 1em 0 1em;
+    padding: 0 2em 0 2em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,8 +20,8 @@ const Nav = Styled.nav`
         left: 0;
         height: 60px;
         width: 100%;
+        padding: 0;
         background-color: ${(props) => props.theme.mainColorSticky};
-        padding: 0 2em 0 2em;
     }
 
     .dots-wrapper {
