@@ -1,0 +1,15 @@
+{
+    "app.greeting": "Hola, soy Leo Coronel",
+    "app.theme": "Personaliza la web",
+    "app.lang": "Cambia el idioma",
+    "app.save": "*La selección de tema se guardara para tu próxima visita.",
+    "app.nav-about": "Sobre mi",
+    "app.nav-projects": "Proyectos",
+    "app.nav-contact": "Contacto",
+    "app.about": "sobre mí",
+    "app.resume": "Descarga aquí mi",
+    "app.resume-cv": "Curriculum",
+    "app.about-desc": "Entusiasta y creativo, un apasionado por la informática, FrontEnd autodidacta y con muchas ganas de seguir aprendiendo. Me gusta trabajar en equipo y siempre estoy en busca de potenciar mis habilidades.",
+    "app.about-aboutme": "Más sobre mi",
+    "app.contact": "Encuentrame en:"
+}
