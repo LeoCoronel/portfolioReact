@@ -21,6 +21,7 @@ const Nav = Styled.nav`
         height: 60px;
         width: 100%;
         background-color: ${(props) => props.theme.mainColorSticky};
+        padding: 0 2em 0 2em;
     }
 
     .dots-wrapper {

@@ -24,7 +24,7 @@ const Contact = () => {
     return (
         <Div id="footer">
             <footer>
-                <img src="../src/img/icon-logo.svg" alt="logo" />
+                <img src="https://raw.githubusercontent.com/LeoCoronel/portfolioReact/master/src/img/icon-logo.svg" alt="logo" />
                 <p>Copyright © | 2020 -  <span>Leo Coronel</span></p>
             </footer>
         </Div>
