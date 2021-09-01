@@ -46,7 +46,7 @@ const Skill = ({title, desc, items, img}) => {
     return(
         <Card>
             <div className="icon-container">
-                <img src={`../../src/img/${img}.svg`} alt={`${img}`} className={`${img}`}/>
+                <img src={`https://raw.githubusercontent.com/LeoCoronel/portfolioReact/master/src/img/${img}.svg`} alt={`${img}`} className={`${img}`}/>
             </div>
             <p className="skill-title">{title}</p>
             <p className="card-desc">{desc}</p>

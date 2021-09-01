@@ -89,7 +89,7 @@ const LeftColumn = ({setTheme}) => {
     return (
         <>
             <Left>
-                <img src='../../src/img/avataaars.png' alt="foto de perfil" id="profile-pic" />
+                <img src='https://raw.githubusercontent.com/LeoCoronel/portfolioReact/master/src/img/avataaars.png' alt="foto de perfil" id="profile-pic" />
                 <h5><FormattedMessage id="app.theme" defaultMessage="404 text no found" /></h5>
 
                 <div className="theme-options">

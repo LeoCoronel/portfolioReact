@@ -111,7 +111,7 @@ const Skill = ({title, desc, techs, img, links}) => {
                     </div>
                 </div>
             </div>
-            <a href="#"><img src={`../../src/img/${img}.png`} alt="" /></a>
+            <a href="#"><img src={`https://raw.githubusercontent.com/LeoCoronel/portfolioReact/master/src/img/${img}.png`} alt={img} /></a>
         </Card>
     )
 }

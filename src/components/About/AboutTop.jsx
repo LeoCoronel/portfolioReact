@@ -73,7 +73,7 @@ const AboutTop = () => {
                 </div>
 
                 <div className="about-right">
-                    <img className="about-logo" src="../../src/img/icon-logo.svg" alt="logo" />
+                    <img className="about-logo" src="https://raw.githubusercontent.com/LeoCoronel/portfolioReact/e3f37a86d63d77c461d5d567d977f2504e7fef09/src/img/icon-logo.svg" alt="logo" />
                 </div>
             </div>
         </TopWrapper>
