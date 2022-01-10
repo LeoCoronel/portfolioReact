@@ -25,7 +25,7 @@ export const dataEs = [{
     "title":"Intereses",
     "dates":"",
     "info":
-        ["Música", "Deportes", "Tecnología"],
+        ["FrontEnd", "Deportes", "Tecnología", "Música"],
     "type":"Intereses"}
 ]
 
@@ -52,6 +52,6 @@ export const dataEn = [{
     "title":"Interests",
     "dates":"",
     "info":
-        ["Music", "Sports", "Tech"],
+        ["FrontEnd", "Sports", "Tech", "Music"],
     "type":"Interests"}
 ]

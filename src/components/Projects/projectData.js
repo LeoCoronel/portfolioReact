@@ -11,6 +11,13 @@ export const projectEs = [{
     "techs":["react", "sass"],
     "img": "pokedex",
     "links": ["https://pokedex-leocoronel.vercel.app","https://github.com/LeoCoronel/pokedexReact"]
+},
+{
+    "title": "CMYK4 - Wineberry",
+    "desc": "CMYK son proyectos organizados por FrontEndCafé, donde se reunen programadores y diseñadores para realizar un proyecto. En la versión 4 me toco el grupo BlueBerry con quienes me toco desarrollar a partir de un diseño la página para una bódega.",
+    "techs":["react", "sass"],
+    "img": "wineberry",
+    "links": ["https://wineberry.netlify.app","https://github.com/frontendcafe/cmyk-blueberry"]
 }
 ];
 
@@ -27,5 +34,12 @@ export const projectEn = [{
     "techs":["react", "sass"],
     "img": "pokedex",
     "links": ["https://pokedex-leocoronel.vercel.app","https://github.com/LeoCoronel/pokedexReact"]
+},
+{
+    "title": "CMYK4 - Wineberry",
+    "desc": "CMYK are projects organized by FrontEndCafé, where programmers and designers meet to develop a project. In the 4th version i was part of the team Blueberry with whom i had to develop from a design a web page for a warehouse.",
+    "techs":["react", "sass"],
+    "img": "wineberry",
+    "links": ["https://wineberry.netlify.app","https://github.com/frontendcafe/cmyk-blueberry"]
 }
 ];
