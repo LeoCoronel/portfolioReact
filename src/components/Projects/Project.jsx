@@ -12,7 +12,6 @@ const Card = Styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
-
         .inner {
             margin: 10px;
             .title {
