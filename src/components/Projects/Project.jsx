@@ -47,6 +47,11 @@ const Card = Styled.div`
                     color: ${(props) => props.theme.mainText};
                     text-decoration: none;
                 }
+
+                .link-icon:hover {
+                    transition: .5s ease;
+                    transform: scale(1.2);
+                }
             }
         }
     }

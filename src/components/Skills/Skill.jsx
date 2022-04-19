@@ -39,6 +39,15 @@ const Card = Styled.li`
         color: ${(props) => props.theme.subtitle};
     }
     }
+
+    &:hover {
+        transition: .5s ease;
+        background: ${(props) => props.theme.secondaryColor};
+        box-shadow: 0 8px 32px 0 ${(props) => props.theme.mainText};
+        backdrop-filter: blur( 5px );
+        -webkit-backdrop-filter: blur( 5px );
+        border-radius: 10px;
+    }
 `;
 
 const Skill = ({title, desc, items, img}) => {
