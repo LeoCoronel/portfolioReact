@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useContext} from "react";
 import Styled from 'styled-components';
+import { LanguageContext } from '../../contexts/LanguageContext';
 
 import { FormattedMessage } from 'react-intl';
+
+const resume = "https://raw.githubusercontent.com/LeoCoronel/portfolioReact/21cd798e45e6a79b97688f84cf5a7ca351490295/src/Coronel_Leo_Resume.pdf";
+const cv = "https://raw.githubusercontent.com/LeoCoronel/portfolioReact/1028055fb33d6c936d0ec9df7aeda2bd94ab9cac/src/Coronel_Leo_CV(es).pdf";
 
 const TopWrapper = Styled.div`
     .about-left {
@@ -60,6 +64,15 @@ const TopWrapper = Styled.div`
 `
 
 const AboutTop = () => {
+    const { data } = useContext(LanguageContext);
+    let resumeCV = cv;
+
+    if(data.locale === 'es') {
+        resumeCV = cv;
+    } else if(data.locale === 'en') {
+        resumeCV = resume;
+    }
+
     return (
         <TopWrapper>
             <div className="about-top">
@@ -67,7 +80,7 @@ const AboutTop = () => {
                     <p class="subtitle"><FormattedMessage id="app.about" defaultMessage="404 text no found" /></p>
                     <p class="about-title">FrontEnd Developer</p>
 
-                    <p class="about-desc"><FormattedMessage id="app.resume" defaultMessage="404 text no found" /> <a href="https://raw.githubusercontent.com/LeoCoronel/portfolioReact/1028055fb33d6c936d0ec9df7aeda2bd94ab9cac/src/Coronel_Leo_CV(es).pdf" class="cv-link" target="_blank"><FormattedMessage id="app.resume-cv" defaultMessage="404 text no found" /></a>.</p>
+                    <p class="about-desc"><FormattedMessage id="app.resume" defaultMessage="404 text no found" /> <a href={resumeCV} class="cv-link" target="_blank"><FormattedMessage id="app.resume-cv" defaultMessage="404 text no found" /></a>.</p>
                     
                     <p class="about-desc"><FormattedMessage id="app.about-desc" defaultMessage="404 text no found" /></p>
                 </div>
