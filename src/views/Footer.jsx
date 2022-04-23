@@ -7,6 +7,7 @@ const Div = Styled.div`
         display: flex;
         justify-content: space-around;
         color: ${(props) => props.theme.secondaryText};
+
         img {
             width: 50px;
         }

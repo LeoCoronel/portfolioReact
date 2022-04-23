@@ -37,6 +37,7 @@ const Div = Styled.div`
             margin: 1em;
 
             &:hover {
+                transition: .5s ease;
                 border: 1px solid ${(props) => props.theme.mainText};
             }
         }
