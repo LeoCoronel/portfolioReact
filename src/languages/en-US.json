@@ -11,5 +11,6 @@
     "app.resume-cv": "Resume",
     "app.about-desc": "Enthusiastic and creative, passionate about informatics, self-taught FrontEnd and looking forward to keep learning. I like teamwork and i'm always looking to enhace my skills.",
     "app.about-aboutme": "More about me",
-    "app.contact": "Find me here:"
+    "app.contact": "Find me here:",
+    "app.cv-downloaded" : "The downloaded cv changes according to the selected language."
 }

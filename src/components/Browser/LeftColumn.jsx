@@ -99,6 +99,7 @@ const LeftColumn = ({setTheme}) => {
 
                 {<button className="toggleLang" onClick={ () => { toggleData() } }><FormattedMessage id="app.lang" defaultMessage="404 text no found" /></button>}
                 <div>{`${data.locale}`}</div>
+                <p id="settings-note"><FormattedMessage id="app.cv-downloaded" defaultMessage="404 text no found" /></p>
                 <p id="settings-note"><FormattedMessage id="app.save" defaultMessage="404 text no found" /></p>
             </Left>
         </>

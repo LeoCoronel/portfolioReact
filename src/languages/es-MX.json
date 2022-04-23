@@ -11,5 +11,6 @@
     "app.resume-cv": "Curriculum",
     "app.about-desc": "Entusiasta y creativo, un apasionado por la informática, FrontEnd autodidacta y con muchas ganas de seguir aprendiendo. Me gusta trabajar en equipo y siempre estoy en busca de potenciar mis habilidades.",
     "app.about-aboutme": "Más sobre mi",
-    "app.contact": "Encuentrame en:"
+    "app.contact": "Encuentrame en:",
+    "app.cv-downloaded" : "El cv que se descarga cambia según el idioma elegido."
 }
