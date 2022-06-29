@@ -9,6 +9,7 @@ import { FormattedMessage } from 'react-intl';
 const TabContainer = Styled.div`
     width: 100%;
     max-width: 1170px;
+    margin-top: 150px;
     color: ${(props) => props.theme.mainText};
     .tabs-title {
         margin-bottom: 4rem;

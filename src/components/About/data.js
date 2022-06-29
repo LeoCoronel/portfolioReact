@@ -19,14 +19,6 @@ export const dataEs = [{
     "info":
         ['Pertenezco al cuerpo activo de la Asociación de Bomberos Voluntarios de José C. Paz "Cte. Donato de Salvio"'],
     "type":"BV"},
-{
-    "id":"rec61x18GVY99hQq5",
-    "order":1,
-    "title":"Intereses",
-    "dates":"",
-    "info":
-        ["FrontEnd", "Deportes", "Tecnología", "Música"],
-    "type":"Intereses"}
 ]
 
 export const dataEn = [{
@@ -46,12 +38,4 @@ export const dataEn = [{
     "info":
         ['I belong to the active corps of the Association of Volunteer Firefighters of José C. Paz "Cte. Donato de Salvio"'],
     "type":"VF"},
-{
-    "id":"rec61x18GVY99hQq5",
-    "order":1,
-    "title":"Interests",
-    "dates":"",
-    "info":
-        ["FrontEnd", "Sports", "Tech", "Music"],
-    "type":"Interests"}
 ]
